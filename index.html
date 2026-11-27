@@ -1,0 +1,899 @@
+
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description" content="Portafolio académico de estudiantes de Desarrollo Web I.">
+
+    <title>Portafolio Web | Desarrollo Web I</title>
+
+    <!-- Bootstrap local -->
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+
+    <!-- Estilos propios -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- =====================================
+         FONDO DECORATIVO
+    ====================================== -->
+
+    <div class="background-grid"></div>
+
+
+    <!-- =====================================
+         NAVBAR
+    ====================================== -->
+
+    <nav class="navbar navbar-expand-lg navbar-dark main-navbar">
+
+        <div class="container-fluid px-lg-5">
+
+            <a href="#inicio" class="navbar-brand">
+                <span class="brand-symbol">◆</span>
+                <span>portafolio<span class="brand-accent">_web</span></span>
+            </a>
+
+            <button class="navbar-toggler custom-toggler"
+                type="button"
+                id="menuToggle"
+                aria-controls="navbarContent"
+                aria-expanded="false"
+                aria-label="Abrir menú">
+
+                <span class="menu-icon">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </span>
+
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarContent">
+
+                <ul class="navbar-nav ms-auto align-items-lg-center">
+
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#inicio">Inicio</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#equipo">Equipo</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#tecnologias">Tecnologías</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#proyecto">Proyecto</a>
+                    </li>
+
+                    <li class="nav-item ms-lg-3">
+                        <a class="github-button"
+                            href="https://github.com/LeoMcz/Portafolio_Web"
+                            target="_blank"
+                            rel="noopener noreferrer">
+
+                            GitHub <span>↗</span>
+
+                        </a>
+                    </li>
+
+                </ul>
+
+            </div>
+
+        </div>
+
+    </nav>
+
+
+    <!-- =====================================
+         PRESENTACIÓN PRINCIPAL
+    ====================================== -->
+
+    <main>
+
+        <section id="inicio" class="hero-section">
+
+            <div class="container-fluid px-lg-5">
+
+                <div class="hero-top">
+
+                    <div>
+                        <span class="terminal-label">
+                            DESARROLLO WEB I / PROYECTO FINAL
+                        </span>
+
+                        <h1>
+                            WE BUILD.<br>
+                            WE LEARN.<br>
+                            <span>WE CODE.</span>
+                        </h1>
+
+                        <p class="hero-description">
+                            Tres estudiantes, un mismo proyecto y un camino
+                            de aprendizaje en el desarrollo web.
+                            Este es nuestro espacio para documentar,
+                            compartir y presentar nuestro trabajo.
+                        </p>
+
+                        <a href="#equipo" class="primary-button">
+                            EXPLORAR PROYECTO <span>→</span>
+                        </a>
+                    </div>
+
+                    <div class="hero-side-info">
+
+                        <div class="side-info-item">
+                            <span>PROJECT STATUS</span>
+                            <strong>
+                                <span class="status-dot"></span>
+                                IN DEVELOPMENT
+                            </strong>
+                        </div>
+
+                        <div class="side-info-item">
+                            <span>TEAM MEMBERS</span>
+                            <strong>03 DEVELOPERS</strong>
+                        </div>
+
+                        <div class="side-info-item">
+                            <span>PROJECT VERSION</span>
+                            <strong>V.01.2026</strong>
+                        </div>
+
+                        <div class="side-info-item">
+                            <span>ENVIRONMENT</span>
+                            <strong>WEB DEVELOPMENT</strong>
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <!-- VENTANA PRINCIPAL -->
+
+                <div class="terminal-scene">
+
+                    <!-- Ventanas del fondo -->
+
+                    <div class="terminal-shadow shadow-back"></div>
+                    <div class="terminal-shadow shadow-middle"></div>
+
+                    <!-- Ventana principal -->
+
+                    <div class="terminal-window">
+
+                        <!-- Barra superior -->
+
+                        <div class="terminal-header">
+
+                            <div class="terminal-brand">
+                                <span class="terminal-logo">◆</span>
+                                codemetal <span class="terminal-separator">/</span>
+                                portfolio_web
+                            </div>
+
+                            <div class="terminal-center">
+                                PROJECT OVERVIEW
+                            </div>
+
+                            <div class="terminal-status">
+                                <span class="status-dot"></span>
+                                RUNNING
+                            </div>
+
+                        </div>
+
+
+                        <!-- Barra de progreso -->
+
+                        <div class="terminal-progress">
+
+                            <div class="progress-information">
+                                <span>PROJECT DEVELOPMENT</span>
+                                <span>IN PROGRESS</span>
+                            </div>
+
+                            <div class="progress-track">
+                                <div class="progress-fill" data-progress="65"></div>
+                            </div>
+
+                        </div>
+
+
+                        <!-- CUERPO DEL DASHBOARD -->
+
+                        <div class="dashboard-layout">
+
+
+                            <!-- PANEL IZQUIERDO -->
+
+                            <aside class="dashboard-sidebar">
+
+                                <div class="panel-heading">
+                                    01 / PROJECT NAVIGATION
+                                </div>
+
+                                <div class="sidebar-group">
+
+                                    <span class="sidebar-title">GENERAL</span>
+
+                                    <a href="#inicio" class="sidebar-link active">
+                                        <span>01</span>
+                                        Overview
+                                    </a>
+
+                                    <a href="#equipo" class="sidebar-link">
+                                        <span>02</span>
+                                        Team members
+                                    </a>
+
+                                    <a href="#tecnologias" class="sidebar-link">
+                                        <span>03</span>
+                                        Technologies
+                                    </a>
+
+                                    <a href="#proyecto" class="sidebar-link">
+                                        <span>04</span>
+                                        About project
+                                    </a>
+
+                                </div>
+
+                                <div class="sidebar-group">
+
+                                    <span class="sidebar-title">DEVELOPMENT</span>
+
+                                    <div class="sidebar-link">
+                                        <span>05</span>
+                                        HTML structure
+                                        <b>✓</b>
+                                    </div>
+
+                                    <div class="sidebar-link">
+                                        <span>06</span>
+                                        CSS design
+                                        <b>✓</b>
+                                    </div>
+
+                                    <div class="sidebar-link">
+                                        <span>07</span>
+                                        JavaScript
+                                        <b class="pending">●</b>
+                                    </div>
+
+                                </div>
+
+                                <div class="sidebar-footer">
+                                    SYSTEM VERSION 1.0.0
+                                </div>
+
+                            </aside>
+
+
+                            <!-- PANEL CENTRAL -->
+
+                            <section class="dashboard-main">
+
+                                <div class="panel-heading">
+                                    02 / WORKSPACE
+                                </div>
+
+                                <div class="workspace-content">
+
+                                    <div class="workspace-title">
+                                        <div>
+                                            <span class="workspace-tag">ACTIVE PROJECT</span>
+                                            <h2>Portafolio Web</h2>
+                                        </div>
+
+                                        <span class="workspace-icon">&lt;/&gt;</span>
+                                    </div>
+
+                                    <div class="file-explorer">
+
+                                        <div class="file-row">
+                                            <span class="file-icon html-icon">H</span>
+                                            <span>index.html</span>
+                                            <span class="file-description">Main structure</span>
+                                            <span class="file-check">✓</span>
+                                        </div>
+
+                                        <div class="file-row">
+                                            <span class="file-icon css-icon">C</span>
+                                            <span>style.css</span>
+                                            <span class="file-description">Visual design</span>
+                                            <span class="file-check">✓</span>
+                                        </div>
+
+                                        <div class="file-row">
+                                            <span class="file-icon js-icon">JS</span>
+                                            <span>script.js</span>
+                                            <span class="file-description">Interactions</span>
+                                            <span class="file-pending">●</span>
+                                        </div>
+
+                                        <div class="file-row">
+                                            <span class="file-icon folder-icon">▣</span>
+                                            <span>bootstrap/</span>
+                                            <span class="file-description">Framework</span>
+                                            <span class="file-check">✓</span>
+                                        </div>
+
+                                        <div class="file-row">
+                                            <span class="file-icon folder-icon">▣</span>
+                                            <span>img/</span>
+                                            <span class="file-description">Resources</span>
+                                            <span class="file-check">✓</span>
+                                        </div>
+
+                                    </div>
+
+
+                                    <div class="workspace-bottom">
+
+                                        <div class="mini-stat">
+                                            <span>TEAM</span>
+                                            <strong>03</strong>
+                                            <small>Developers</small>
+                                        </div>
+
+                                        <div class="mini-stat">
+                                            <span>LANGUAGES</span>
+                                            <strong>03</strong>
+                                            <small>Technologies</small>
+                                        </div>
+
+                                        <div class="mini-stat">
+                                            <span>REPOSITORY</span>
+                                            <strong>01</strong>
+                                            <small>GitHub project</small>
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+                            </section>
+
+
+                            <!-- PANEL DERECHO -->
+
+                            <aside class="dashboard-right">
+
+                                <div class="panel-heading">
+                                    03 / SYSTEM INFO
+                                </div>
+
+                                <div class="right-panel-block">
+
+                                    <span class="sidebar-title">PROJECT INFO</span>
+
+                                    <div class="info-row">
+                                        <span>Project</span>
+                                        <strong>Portafolio Web</strong>
+                                    </div>
+
+                                    <div class="info-row">
+                                        <span>Course</span>
+                                        <strong>Desarrollo Web I</strong>
+                                    </div>
+
+                                    <div class="info-row">
+                                        <span>Members</span>
+                                        <strong>03</strong>
+                                    </div>
+
+                                    <div class="info-row">
+                                        <span>Platform</span>
+                                        <strong>GitHub</strong>
+                                    </div>
+
+                                </div>
+
+                                <div class="right-panel-block">
+
+                                    <span class="sidebar-title">TECHNOLOGIES</span>
+
+                                    <div class="tech-progress">
+                                        <div>
+                                            <span>HTML</span>
+                                            <span>STRUCTURE</span>
+                                        </div>
+                                        <div class="tech-bar">
+                                            <span style="width: 90%"></span>
+                                        </div>
+                                    </div>
+
+                                    <div class="tech-progress">
+                                        <div>
+                                            <span>CSS</span>
+                                            <span>DESIGN</span>
+                                        </div>
+                                        <div class="tech-bar">
+                                            <span style="width: 80%"></span>
+                                        </div>
+                                    </div>
+
+                                    <div class="tech-progress">
+                                        <div>
+                                            <span>JS</span>
+                                            <span>LOGIC</span>
+                                        </div>
+                                        <div class="tech-bar">
+                                            <span style="width: 55%"></span>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                                <div class="right-panel-block status-block">
+
+                                    <span class="sidebar-title">SYSTEM STATUS</span>
+
+                                    <strong>
+                                        <span class="status-dot"></span>
+                                        OPERATIONAL
+                                    </strong>
+
+                                    <small>All systems working</small>
+
+                                </div>
+
+                            </aside>
+
+                        </div>
+
+
+                        <!-- CONSOLA INFERIOR -->
+
+                        <div class="terminal-console">
+
+                            <div class="console-heading">
+                                04 / ACTIVITY LOG
+                            </div>
+
+                            <div class="console-lines">
+
+                                <p>
+                                    <span>10:42:01</span>
+                                    <b>[INFO]</b>
+                                    Initializing Portafolio Web...
+                                </p>
+
+                                <p>
+                                    <span>10:42:02</span>
+                                    <b>[SUCCESS]</b>
+                                    Project structure loaded successfully.
+                                </p>
+
+                                <p>
+                                    <span>10:42:03</span>
+                                    <b>[SUCCESS]</b>
+                                    Team members registered: 03.
+                                </p>
+
+                                <p>
+                                    <span>10:42:04</span>
+                                    <b>[INFO]</b>
+                                    HTML / CSS / JavaScript environment ready.
+                                </p>
+
+                                <p class="console-last">
+                                    <span>10:42:05</span>
+                                    <b>[RUNNING]</b>
+                                    Waiting for next development task...
+                                    <span class="cursor">_</span>
+                                </p>
+
+                            </div>
+
+                            <div class="console-footer">
+                                <span>Q Quit</span>
+                                <span>L Log</span>
+                                <span>H Help</span>
+                                <span class="console-right">PORTAFOLIO_WEB / 2026</span>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =====================================
+             EQUIPO
+        ====================================== -->
+
+        <section id="equipo" class="team-section">
+
+            <div class="container-fluid px-lg-5">
+
+                <div class="section-top">
+
+                    <div>
+                        <span class="section-label">05 / OUR TEAM</span>
+
+                        <h2>
+                            MEET THE<br>
+                            <span>DEVELOPERS.</span>
+                        </h2>
+                    </div>
+
+                    <p>
+                        Conoce a los integrantes del proyecto y accede
+                        a sus portafolios individuales para explorar
+                        sus actividades y trabajos realizados durante
+                        el semestre.
+                    </p>
+
+                </div>
+
+
+                <div class="row g-4">
+
+                    <!-- DIEGO -->
+
+                    <div class="col-md-6 col-xl-4">
+
+                        <article class="developer-card">
+
+                            <div class="developer-card-header">
+                                <span>USER_01</span>
+                                <span class="user-status">● ACTIVE</span>
+                            </div>
+
+                            <div class="developer-avatar avatar-diego">
+                                <span>01</span>
+                                <div class="avatar-symbol">&lt;/&gt;</div>
+                            </div>
+
+                            <div class="developer-content">
+
+                                <span class="developer-role">DEVELOPER / STUDENT</span>
+
+                                <h3>
+                                    Diego Alexander<br>
+                                    Byron Gómez
+                                </h3>
+
+                                <p>
+                                    Portafolio académico y recopilación
+                                    de actividades de Desarrollo Web I.
+                                </p>
+
+                                <div class="developer-details">
+                                    <span>PROFILE STATUS</span>
+                                    <strong>READY TO EXPLORE</strong>
+                                </div>
+
+                                <a href="diego/index.html" class="developer-button">
+                                    VIEW PROFILE <span>↗</span>
+                                </a>
+
+                            </div>
+
+                        </article>
+
+                    </div>
+
+
+                    <!-- LEONARDO -->
+
+                    <div class="col-md-6 col-xl-4">
+
+                        <article class="developer-card">
+
+                            <div class="developer-card-header">
+                                <span>USER_02</span>
+                                <span class="user-status">● ACTIVE</span>
+                            </div>
+
+                            <div class="developer-avatar avatar-leonardo">
+                                <span>02</span>
+                                <div class="avatar-symbol">&lt;/&gt;</div>
+                            </div>
+
+                            <div class="developer-content">
+
+                                <span class="developer-role">DEVELOPER / STUDENT</span>
+
+                                <h3>
+                                    Leonardo<br>
+                                    Méndez Cruz
+                                </h3>
+
+                                <p>
+                                    Portafolio académico y recopilación
+                                    de actividades de Desarrollo Web I.
+                                </p>
+
+                                <div class="developer-details">
+                                    <span>PROFILE STATUS</span>
+                                    <strong>READY TO EXPLORE</strong>
+                                </div>
+
+                                <a href="leonardo/index.html" class="developer-button">
+                                    VIEW PROFILE <span>↗</span>
+                                </a>
+
+                            </div>
+
+                        </article>
+
+                    </div>
+
+
+                    <!-- JORGE -->
+
+                    <div class="col-md-6 col-xl-4">
+
+                        <article class="developer-card">
+
+                            <div class="developer-card-header">
+                                <span>USER_03</span>
+                                <span class="user-status">● ACTIVE</span>
+                            </div>
+
+                            <div class="developer-avatar avatar-jorge">
+                                <span>03</span>
+                                <div class="avatar-symbol">&lt;/&gt;</div>
+                            </div>
+
+                            <div class="developer-content">
+
+                                <span class="developer-role">DEVELOPER / STUDENT</span>
+
+                                <h3>
+                                    Jorge Alejandro<br>
+                                    Ochoa Quiroga
+                                </h3>
+
+                                <p>
+                                    Portafolio académico y recopilación
+                                    de actividades de Desarrollo Web I.
+                                </p>
+
+                                <div class="developer-details">
+                                    <span>PROFILE STATUS</span>
+                                    <strong>READY TO EXPLORE</strong>
+                                </div>
+
+                                <a href="jorge/index.html" class="developer-button">
+                                    VIEW PROFILE <span>↗</span>
+                                </a>
+
+                            </div>
+
+                        </article>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =====================================
+             TECNOLOGÍAS
+        ====================================== -->
+
+        <section id="tecnologias" class="technology-section">
+
+            <div class="container-fluid px-lg-5">
+
+                <div class="section-top">
+
+                    <div>
+                        <span class="section-label">06 / TECHNOLOGY STACK</span>
+
+                        <h2>
+                            TOOLS OF<br>
+                            <span>DEVELOPMENT.</span>
+                        </h2>
+                    </div>
+
+                    <p>
+                        Tecnologías y herramientas que utilizamos
+                        para desarrollar nuestros proyectos y
+                        construir este portafolio.
+                    </p>
+
+                </div>
+
+
+                <div class="technology-grid">
+
+                    <div class="technology-item">
+                        <span class="technology-number">01</span>
+                        <div class="technology-icon html-color">5</div>
+                        <h3>HTML5</h3>
+                        <p>Structure and content</p>
+                        <span class="technology-type">MARKUP LANGUAGE</span>
+                    </div>
+
+                    <div class="technology-item">
+                        <span class="technology-number">02</span>
+                        <div class="technology-icon css-color">3</div>
+                        <h3>CSS3</h3>
+                        <p>Design and presentation</p>
+                        <span class="technology-type">STYLE SHEET</span>
+                    </div>
+
+                    <div class="technology-item">
+                        <span class="technology-number">03</span>
+                        <div class="technology-icon js-color">JS</div>
+                        <h3>JavaScript</h3>
+                        <p>Logic and interactions</p>
+                        <span class="technology-type">PROGRAMMING LANGUAGE</span>
+                    </div>
+
+                    <div class="technology-item">
+                        <span class="technology-number">04</span>
+                        <div class="technology-icon git-color">◆</div>
+                        <h3>Git / GitHub</h3>
+                        <p>Version control</p>
+                        <span class="technology-type">COLLABORATION</span>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =====================================
+             SOBRE EL PROYECTO
+        ====================================== -->
+
+        <section id="proyecto" class="project-section">
+
+            <div class="container-fluid px-lg-5">
+
+                <div class="project-window">
+
+                    <div class="project-window-header">
+                        <span>◆ ABOUT_THIS_PROJECT</span>
+                        <span>DOCUMENTATION / 001</span>
+                    </div>
+
+                    <div class="project-window-body">
+
+                        <div class="project-title">
+                            <span class="section-label">07 / PROJECT DESCRIPTION</span>
+
+                            <h2>
+                                ONE PROJECT.<br>
+                                THREE <span>DEVELOPERS.</span>
+                            </h2>
+                        </div>
+
+                        <div class="project-description">
+
+                            <p>
+                                Portafolio Web es un proyecto académico
+                                desarrollado para la asignatura Desarrollo
+                                Web I. Su finalidad es recopilar, organizar
+                                y presentar los trabajos, prácticas y
+                                actividades realizadas durante el semestre.
+                            </p>
+
+                            <p>
+                                Cada integrante cuenta con un espacio
+                                individual donde puede mostrar su evolución,
+                                sus conocimientos y los proyectos que ha
+                                desarrollado durante su formación.
+                            </p>
+
+                            <a href="https://github.com/LeoMcz/Portafolio_Web"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                class="project-link">
+
+                                EXPLORE OUR REPOSITORY ↗
+
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                    <div class="project-window-footer">
+                        <span>PROJECT: PORTAFOLIO_WEB</span>
+                        <span>STATUS: IN DEVELOPMENT</span>
+                        <span>YEAR: 2026</span>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- =====================================
+         FOOTER
+    ====================================== -->
+
+    <footer class="main-footer">
+
+        <div class="container-fluid px-lg-5">
+
+            <div class="footer-main">
+
+                <div>
+                    <a href="#inicio" class="navbar-brand">
+                        <span class="brand-symbol">◆</span>
+                        portafolio<span class="brand-accent">_web</span>
+                    </a>
+
+                    <p>
+                        LEARN. BUILD. REPEAT.
+                    </p>
+                </div>
+
+                <div class="footer-information">
+
+                    <span>ACADEMIC PROJECT</span>
+                    <strong>DESARROLLO WEB I</strong>
+
+                </div>
+
+                <div class="footer-information">
+
+                    <span>REPOSITORY</span>
+                    <a href="https://github.com/LeoMcz/Portafolio_Web"
+                        target="_blank"
+                        rel="noopener noreferrer">
+                        GITHUB ↗
+                    </a>
+
+                </div>
+
+            </div>
+
+            <div class="footer-bottom">
+
+                <span>
+                    © <span id="currentYear"></span> PORTAFOLIO WEB
+                </span>
+
+                <span>
+                    DEVELOPED BY THREE STUDENTS
+                </span>
+
+            </div>
+
+        </div>
+
+    </footer>
+
+
+    <!-- Bootstrap local -->
+    <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- JavaScript propio -->
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>
